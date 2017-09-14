@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'debbbut';
+  src: url('../font/debbbut.eot?61147184');
+  src: url('../font/debbbut.eot?61147184#iefix') format('embedded-opentype'),
+       url('../font/debbbut.woff2?61147184') format('woff2'),
+       url('../font/debbbut.woff?61147184') format('woff'),
+       url('../font/debbbut.ttf?61147184') format('truetype'),
+       url('../font/debbbut.svg?61147184#debbbut') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="dd-"]:before, [class*=" dd-"]:before {
+  font-family: "debbbut";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.dd-mastodon:before { content: '\e801'; } /* '' */
+.dd-mti:before { content: '\e802'; } /* '' */
+.dd-heart:before { content: '\e803'; } /* '' */
+.dd-twitter:before { content: '\f099'; } /* '' */
+.dd-github:before { content: '\f09b'; } /* '' */
+.dd-smile:before { content: '\f118'; } /* '' */
+.dd-frown:before { content: '\f119'; } /* '' */
+.dd-code:before { content: '\f121'; } /* '' */
+.dd-dribbble:before { content: '\f17d'; } /* '' */
